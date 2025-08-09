@@ -225,7 +225,7 @@ class MyWidget extends StatelessWidget {
             child: 
               Column(mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                //Image.network(""),
+                //Image.network(""), test
                 Image.asset("cat.jpg"),
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
