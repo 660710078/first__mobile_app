@@ -1,5 +1,17 @@
 // import 'package:first_app/assignment1.dart';
+import 'package:first_app/counter_widget.dart';
+import 'package:first_app/greeting_widget.dart';
+import 'package:first_app/navigation_example/first_page.dart';
+import 'package:first_app/navigation_example/second_page.dart';
 import 'package:first_app/profile.dart';
+import 'package:first_app/test1.dart';
+import 'package:first_app/test2.dart';
+import 'package:first_app/test3.dart';
+import 'package:first_app/test4.dart';
+import 'package:first_app/test5/test5-1.dart';
+import 'package:first_app/week4/AQI.dart';
+import 'package:first_app/week4/ApiExample.dart';
+import 'package:first_app/week4/UserListPage.dart';
 // import 'package:first_app/week2.dart';
 // import 'package:first_app/week3.dart';
 import 'package:flutter/material.dart';
@@ -28,7 +40,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner:
           false, //defultเป็น True จะได้ไม่ทีหัวคาดว่าdebug
-      home: Profile(),
+      home: AQI()
     );
   }
 }
